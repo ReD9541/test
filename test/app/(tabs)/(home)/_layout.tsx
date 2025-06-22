@@ -13,8 +13,9 @@ export default function HomeLayout() {
       },
     }}>
       <Stack.Screen name="index" 
-      options={{headerShown: false}}/>
-      <Stack.Screen name="details" />
+      options={{headerShown: true}}/>
+      <Stack.Screen name="details" 
+      options={{ headerShown: false }} />  
   </Stack>
 );
 }
